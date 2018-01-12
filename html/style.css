@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+*:before
+*:after{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input,
+button,
+select,
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+html{
+  height: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    /* height: 100%; */
+    width: 100%;
+    background: radial-gradient(white, #A7CECC)no-repeat center center;
+    background-size: cover;
+}
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      width: 540px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 720px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 960px;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px;
+      max-width: 100%;
+    }
+  }
+.content-block{
+    background: rgba(255, 255, 255, .5);
+    margin-top: 40px;
+}
+.block-index{
+  /* margin-top: 40px; */
+}
+/* NAVBAR */
+.navbar{
+    background: rebeccapurple;
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+    padding: 0.75rem 1rem;
+}
+ul.list-menu{
+    margin: 0;
+    padding: 4px;
+}
+ul.list-menu li {
+    display: inline;
+    margin-right: 5px;
+    padding: 20px;
+    flex:1;
+    background: grey;
+}
+ul.list-menu li:hover {
+    background: red;
+    cursor: pointer;
+}
+ul.list-menu li a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+ul.list-menu li a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* страница продукции */
+.section-product-1{
+  width: 100;
+  height:750px;
+  background: radial-gradient(white, red);
+  background-size: cover;
+}
+.section-product-2{
+  width: 100;
+  height:750px;
+  background: radial-gradient(white, greenyellow);
+  background-size: cover;
+}
+.section-product-3{
+  width: 100;
+  height:750px;
+  background: radial-gradient(white, fuchsia);
+  background-size: cover;
+}
